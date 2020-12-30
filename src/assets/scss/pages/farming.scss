@@ -1,0 +1,43 @@
+.farm-data {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: center;
+	margin-bottom: 60px;
+
+	&__item {
+		width: 100%;
+		max-width: 280px;
+		margin: 0 20px;
+		text-align: center;
+		font-family: "Geometria";
+
+		.title {
+			font-size: 16px;
+			line-height: 150%;
+			color: #000000;
+			margin-bottom: 10px;
+			padding-bottom: 0;
+			font-weight: normal;
+		}
+
+		.value {
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 155%;
+			color: #000000;
+		}
+	}
+}
+
+.farm-label {
+	text-align: center;
+	padding: 0 20px;
+	font-family: "Geometria";
+	padding-bottom: 0;
+	color: #000000;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 155%;
+	margin-bottom: 20px;
+}
